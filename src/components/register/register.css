@@ -1,0 +1,155 @@
+.contain {
+  /* background-color: cadetblue; */
+  /* color:whitesmoke;
+  height: 80vh;
+  width:100%; */
+  /* display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  /* overflow:hidden; */
+}
+h2 {
+  color: rgb(43, 42, 42);
+}
+/* @media (max-width:1000px) {
+    .contain {
+        height: 70vh;
+    }
+} */
+.form {
+  margin: 40px;
+  /* height: 760px; */
+  /* width: 700px; */
+  /* position: relative; */
+  background-color: rgb(26, 163, 152);
+ border-radius: 30px;
+ display:flex;
+ flex-direction: column;
+ padding: 20px 20px 0 20px ;
+ justify-content: center;
+}
+
+label {
+   padding-left: 15px;
+   padding-bottom: 3px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: rgb(228, 215, 40);
+
+   font-size: 20px;
+}
+input {
+  padding: 14px;
+  margin-bottom: -20px;
+  outline: 0;
+  border-radius: 20px;
+  border: 2px groove rgb(253, 254, 255);
+  background-color: rgb(233, 193, 106);
+  color:rgb(202, 232, 247);
+  font-size: 17px;
+}
+::placeholder {
+  color:white;
+}
+input[type=password] {
+  position: relative;
+  
+}
+
+
+
+.button {
+  /* margin-top: -20px !important; */
+  margin-bottom: 20px !important;
+  margin:auto;
+  display: flex;
+  justify-content: center;
+  padding:14px;
+  width: 100px;
+  border-radius: 20px;
+ align-content: center;
+ outline:0;
+ font-size: 15px;
+ color:rgb(253, 251, 250);
+ border: 1px solid white;
+ cursor: pointer;
+background: linear-gradient(to right, rgb(255, 115, 0), rgb(128, 0, 96));
+}
+@media (max-width:1000px) {
+                    
+                      .contain {
+                          /* background-color: cadetblue; */
+                          color:whitesmoke;
+                          /* height: 80vh; */
+                          /* width:100%; */
+                          display:flex;
+                          flex-direction: column;
+                          justify-content: center;
+                          align-items: center;
+                          /* overflow:hidden; */
+                        }
+                        h2 {
+                          color: rgb(43, 42, 42);
+                        }
+                        /* @media (max-width:1000px) {
+                            .contain {
+                                height: 70vh;
+                            }
+                        } */
+                        .form {
+                          /* margin: 40px; */
+                          /* height: 760px; */
+                          width: 100%;
+                          /* position: relative; */
+                          background-color: rgb(26, 163, 152);
+                         border-radius: 30px;
+                         display:flex;
+                         flex-direction: column;
+                         /* padding: 20px 20px 0 20px ; */
+                         justify-content: center;
+                        }
+                        
+                        label {
+                           padding-left: 15px;
+                           padding-bottom: 3px;
+                           font-family: Georgia, 'Times New Roman', Times, serif;
+                           color: rgb(228, 215, 40);
+                      
+                           font-size: 1.4rem;
+                        }
+                        input {
+                          padding: 14px;
+                          margin-bottom: -20px;
+                          outline: 0;
+                          border-radius: 20px;
+                          border: 2px groove rgb(253, 254, 255);
+                          background-color: rgb(233, 193, 106);
+                          color:rgb(240, 242, 245);
+                          font-size: 1rem;
+                        }
+                        ::placeholder {
+                          color:white;
+                        }
+                        input[type=password] {
+                          position: relative;
+                          
+                        }
+                        
+                        
+                        
+                        .button {
+                          margin:auto;
+                          display: flex;
+                          justify-content: center;
+                          padding:14px;
+                          width: 100px;
+                          border-radius: 20px;
+                         align-content: center;
+                         outline:0;
+                         font-size: 15px;
+                         color:rgb(253, 251, 250);
+                         border: 1px solid white;
+                         cursor: pointer;
+                        background: linear-gradient(to right, rgb(255, 115, 0), rgb(128, 0, 96));
+                        }
+                    }
